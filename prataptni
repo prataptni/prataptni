@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratap TNI Institute</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+        header { background: #007bff; color: white; padding: 15px; text-align: center; }
+        section { padding: 20px; }
+        .contact-form { max-width: 400px; margin: auto; }
+        input, select, textarea { width: 100%; padding: 10px; margin: 5px 0; }
+        button { background: #007bff; color: white; padding: 10px; border: none; cursor: pointer; }
+        button:hover { background: #0056b3; }
+        footer { background: #007bff; color: white; text-align: center; padding: 10px; margin-top: 20px; }
+        .map-container { text-align: center; margin-top: 20px; }
+        .policy-section { margin-top: 40px; padding: 20px; }
+        .policy-section h2 { color: #007bff; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Pratap TNI Institute</h1>
+    </header>
+    <section>
+        <h2>About Us</h2>
+        <p>Pratap TNI Institute is well known for quality and affordable education for students.</p>
+    </section>
+    <section>
+        <h2>Our Team</h2>
+        <p>Our faculty comprises experienced and highly qualified educators who specialize in preparing students for JEE, NEET, UPSC, PCS, and school-level tuition. With years of experience and dedication, our team ensures that students receive the best guidance and mentorship.</p>
+        <ul>
+            <li><strong>Dr. Nitin pratap Singh Chauhan</strong> - Senior Faculty, Physics (10+ years experience)</li>
+            <li><strong>Ms. Anjali Verma</strong> - Senior Faculty, Chemistry (8+ years experience)</li>
+            <li><strong>Mr. Sunil Gupta</strong> - Senior Faculty, Mathematics (12+ years experience)</li>
+            <li><strong>Dr. jatin Mehta</strong> - Senior Faculty, Biology (10+ years experience)</li>
+            <li><strong>Mr. Arvind Kumar</strong> - Faculty, UPSC & PCS (15+ years experience)</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Our Courses</h2>
+        <ul>
+            <li>JEE</li>
+            <li>NEET</li>
+            <li>UPSC</li>
+            <li>PCS</li>
+            <li>Tuition for students of Class 5th to 12th</li>
+            <li>Foundation and Classroom Courses for Classes 9th to 12th</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Admission Information</h2>
+        <p><strong>Admission Open:</strong> For students entering Classes 9th to 12th for the 2025 batches.</p>
+        <p><strong>Programs Offered:</strong> Foundation and Classroom courses.</p>
+        <p><strong>Registration Deadline:</strong> July 20, 2024.</p>
+    </section>
+    <section>
+        <h2>Student Testimonials</h2>
+        <p>"Pratap TNI Institute has helped me achieve my dreams! The teachers are amazing." - Student A</p>
+        <p>"Best coaching institute for competitive exams! Highly recommended." - Student B</p>
+    </section>
+    <section>
+        <h2>Enroll Now</h2>
+        <div class="contact-form">
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="tel" placeholder="Your Phone Number" required>
+                <select required>
+                    <option value="">Select Course</option>
+                    <option value="JEE">JEE</option>
+                    <option value="NEET">NEET</option>
+                    <option value="UPSC">UPSC</option>
+                    <option value="PCS">PCS</option>
+                    <option value="Tuition">Tuition (Class 5th to 12th)</option>
+                </select>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Enroll Now</button>
+            </form>
+        </div>
+    </section>
+    <section>
+        <h2>Contact Us</h2>
+        <p>Address: Bhaniyawala Chowk, Doiwala, Dehradun</p>
+        <p>Phone: 8126239427</p>
+        <p>Email: prataptniinstitute@gmail.com</p>
+        <div class="map-container">
+            <h3>Find Us on Map</h3>
+            <iframe 
+                width="100%" 
+                height="300" 
+                frameborder="0" 
+                style="border:0" 
+                allowfullscreen 
+                src="https://www.google.com/maps/embed/v1/place?q=Bhaniyawala+Chowk,+Doiwala,+Dehradun&key=YOUR_GOOGLE_MAPS_API_KEY">
+            </iframe>
+        </div>
+    </section>
+    <section class="policy-section">
+        <h2>Terms and Conditions</h2>
+        <p>By enrolling at Pratap TNI Institute, students agree to adhere to the institute's code of conduct, maintain regular attendance, and meet all academic requirements. Any violation may result in disciplinary action, including termination of enrollment.</p>
+    </section>
+    <section class="policy-section">
+        <h2>Privacy Policy</h2>
+        <p>Pratap TNI Institute is committed to protecting the privacy of our students. Personal information collected during the enrollment process is used solely for academic and administrative purposes and will not be shared with third parties without consent.</p>
+    </section>
+    <section class="policy-section">
+        <h2>Refund Policy</h2>
+        <p>Refunds are subject to the institute's discretion. Requests must be submitted in writing within the first two weeks of the course commencement. Approved refunds will be processed within 30 days, minus administrative fees.</p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Pratap TNI Institute. All rights reserved.</p>
+    </footer>
+</body>
+</html>
